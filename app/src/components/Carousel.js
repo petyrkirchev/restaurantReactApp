@@ -1,9 +1,5 @@
 import React from 'react';
 import { UncontrolledCarousel } from 'reactstrap';
-import pizza from '../assets/photos/carousel/pizza_trad_pepperoni.png';
-import salad from '../assets/photos/carousel/salads.jpg';
-import skara from '../assets/photos/carousel/skara.jpg';
-
 
 const items = [
   {
