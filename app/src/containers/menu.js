@@ -2,11 +2,13 @@ import React, {Component} from 'react';
 import {Button, CardBlock, Row, Col, Container} from 'reactstrap';
 import Dish from '../components/Dish';
 import shkembe from "../assets/photos/dishes/istinsko-shkembe.jpg";
+import Tabs from "../components/Tabs";
 
 const Menu = (props) => {
   return (
     <Container>
-      <Row className='jumbotron'>
+      <Tabs/>
+      <Row >
         <Col sm="4">
           <Dish
             img={shkembe}
@@ -29,7 +31,7 @@ const Menu = (props) => {
             text="Люто, горещо ми е най-любимото нещо.."/>
         </Col>
       </Row>
-       <Row className='jumbotron'>
+       <Row >
         <Col sm="4">
           <Dish
             img={shkembe}
@@ -52,7 +54,7 @@ const Menu = (props) => {
             text="Люто, горещо ми е най-любимото нещо.."/>
         </Col>
       </Row>
-       <Row className='jumbotron'>
+       <Row >
         <Col sm="4">
           <Dish
             img={shkembe}
@@ -75,7 +77,7 @@ const Menu = (props) => {
             text="Люто, горещо ми е най-любимото нещо.."/>
         </Col>
       </Row>
-       <Row className='jumbotron'>
+       <Row >
         <Col sm="4">
           <Dish
             img={shkembe}
@@ -98,7 +100,7 @@ const Menu = (props) => {
             text="Люто, горещо ми е най-любимото нещо.."/>
         </Col>
       </Row>
-       <Row className='jumbotron'>
+       <Row >
         <Col sm="4">
           <Dish
             img={shkembe}
